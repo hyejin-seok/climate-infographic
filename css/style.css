@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #dfebe9;
+}
+
+header {
+    background: url(./images/melting-earth.webp) no-repeat right center;
+    background-size: contain;
+    height: 550px;
+    background-color: #dfebe9;
+    width: 95vw;
+    margin: 0 auto;
+    max-width: 1400px;
+}
+
+section {
+    width: 95vw;
+    margin: 0 auto;
+    max-width: 1400px;
+}
+
+
+.title-container {
+    position: relative;
+    top: 50px;
+    width: fit-content;
+    margin-left: 10px;
+    box-shadow: 0 10px 5px -5px gray;
+}
+
+.title-container h1 {
+    background-color: #301934;
+    font-size: 4rem;
+    padding: 15px 40px 20px;
+    font-weight: 600;
+    color: #fdfdfe;
+    text-shadow: 0px 0px 5px #b393d3, 0px 0px 10px #b393d3, 0px 0px 10px #b393d3, 0px 0px 20px #b393d3;
+    border-radius: 20px;
+    text-align: center;
+}
+
+
+.sub-title {
+    font-size: 2rem;
+    padding-top: 10px;
+    text-shadow: 0px 0px 0px;
+    display: block;
+}
+
+.body-container {
+    width: 95vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
+
+}
+
+.fact-box {
+    width: 23%;
+    height: auto;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 50% calc(100% - 20px), 0% 100%, 0% 0%);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.fact-box-1 {
+    background-color: #f6bd60;
+}
+
+.fact-box-2 {
+    background-color: #f5cac3;
+}
+
+.fact-box-3 {
+    background-color: #84a59d;
+}
+
+.fact-box-4 {
+    background-color: #f28482;
+}
+
+
+
+#main-info-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.fact-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 70px;
+    color: white;
+    font-size: 1.1rem;
+    text-shadow: 2px 2px steelblue;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.fact-header-1 {
+    background-color: #aa531e;
+}
+
+.fact-header-2 {
+    background-color: #aa4465;
+}
+
+.fact-header-3 {
+    background-color: #42595d;
+    padding-top: 0;
+}
+
+.fact-header-4 {
+    background-color: #ad343e;
+}
+
+.icon {
+    text-align: center;
+}
+
+.icon-1 {
+    margin-bottom: 5px;
+}
+
+.icon-2 {
+    margin-top: 15px;
+}
+
+.icon-3 {
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.icon-4 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.number {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    text-shadow: 2px 2px lightblue;
+    
+}
+
+.fact-text {
+    font-size: 18px;
+    padding: 15px 20px 35px;
+    line-height: 30px;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+}
+
+.fact-text-2, .fact-text-3 {
+    line-height: 27px;
+}
+
+.action-title h2 {
+    text-transform: uppercase;
+    background-image: linear-gradient(-225deg,
+            #ef476f 0%,
+            #ffd166 29%,
+            #06d6a0 67%,
+            #118ab2 100%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+    font-size: 3.5rem;
+    padding: 5px 0;
+}
+
+@keyframes textclip {
+    to {
+        background-position: 200% center;
+    }
+}
+
+.action-title {
+    text-align: center;
+    background-color: #301934;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 3rem;
+    border-radius: 10px;
+    box-shadow: 0 10px 5px -5px gray;
+}
+
+.action-box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-box-container-1 {
+    gap: 1rem;
+}
+
+.action-box-container-2 {
+    margin-top: 40px;
+}
+
+.earth-image {
+    display: flex;
+    justify-content: center;
+    width: 45%;
+}
+
+.earth-image img {
+    width: 90%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.action-box-wrapper {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.action-box {
+    clip-path: polygon(0% 0%, 100% 0%, calc(100% - 20px) 50%, 100% 100%, 0% 100%);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.action-box-1 {
+    background-color: #d88c9a;
+}
+
+.action-box-2 {
+    background-color: #f2d0a9;
+}
+
+.action-box-3 {
+    background-color: #99c1b9;
+}
+
+.action-box-4 {
+    background-color: #8e7dbe;
+}
+
+.action-header {
+    text-align: center;
+    color: white;
+    font-size: 1.1rem;
+    padding: 15px 5px;
+    text-shadow: 2px 2px steelblue;
+    border-top-left-radius: 5px;
+}
+
+.action-header-1 {
+    background-color: #8f2d56;
+}
+
+.action-header-2 {
+    background-color: #cb7d73;
+}
+
+.action-header-3 {
+    background-color: #387480;
+}
+
+.action-header-4 {
+    background-color: #724e91;
+}
+
+.innerbox {
+    display: flex;
+    flex-direction: row;
+}
+.action-text {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 20px 15px 0;
+}
+
+.action-text p::first-letter {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+
+.action-icon {
+   padding: 10px 20px;
+   display: flex;
+   align-items: center;
+}
+.action-icon-2 {
+    padding: 20px 30px;
+}
+
+.save-earth-image {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 35px;
+}
+
+.save-earth-image img {
+    width: 90%;
+    height: auto;
+    border-radius: 20px;
+    min-width: 500px;
+}
+
+.action-box-container {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    padding: 0 30px;
+}
+
+footer {
+    background-color: #301934;
+    margin-top: 50px;
+}
+
+footer p {
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+    padding: 12px;
+}

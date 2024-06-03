@@ -1,0 +1,55 @@
+.title-container h1 {
+    font-size: 3rem;
+}
+
+.sub-title {
+    font-size: 1.6rem;
+}
+
+#main-info-1 {
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.fact-box {
+    width: 40%;
+}
+
+.action-title h2 {
+    font-size: 3rem;
+    padding: 10px 0;
+}
+
+.action-box-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+}
+
+.earth-image {
+    width: 60%;
+}
+
+.action-box-wrapper {
+    width: 70%;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.action-text {
+    padding-right: 30px;
+}
+
+.action-icon-3, .action-icon-4 {
+    margin: 10px 0;
+}
+
+.action-text-3, .action-text-4 {
+    margin-left: 10px;
+}
+.save-earth-image {
+    width: 60%;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+}

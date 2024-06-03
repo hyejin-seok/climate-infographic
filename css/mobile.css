@@ -1,0 +1,78 @@
+
+.title-container {
+    top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title-container h1 {
+    font-size: 2.2rem;
+    padding: 10px 15px 15px;
+}
+
+.sub-title {
+    font-size: 1rem;
+}
+
+#main-info-1 {
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: -70px;
+}
+
+.fact-box {
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+.fact-text {
+    padding: 10px 20px 40px;
+}
+
+.action-title {
+    margin: 0 1.5rem 2rem;
+}
+
+.action-title h2 {
+    font-size: 2.1rem;
+    padding: 7px 5px;
+}
+
+.action-box-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.earth-image {
+    width: 80%;
+}
+
+.action-box-wrapper {
+    width: 90%;
+}
+
+.action-box {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 50% calc(100% - 20px), 0% 100%, 0% 0%);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.action-header {
+    border-top-right-radius: 5px;
+}
+
+.action-text {
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.action-icon-3, .action-icon-4 {
+    padding: 10px 30px
+}
+
+
+.save-earth-image {
+    width: 70%;
+   margin-left: 0;
+}
