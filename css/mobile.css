@@ -22,7 +22,7 @@
 }
 
 .fact-box {
-    width: 80%;
+    width: 85%;
     margin-bottom: 10px;
 }
 
@@ -42,14 +42,19 @@
 .action-box-container {
     display: flex;
     flex-direction: column;
+    padding: 0;
 }
 
 .earth-image {
     width: 80%;
 }
 
+.innerbox {
+    flex-direction: column;
+}
+
 .action-box-wrapper {
-    width: 90%;
+    width: 85%;
 }
 
 .action-box {
@@ -63,8 +68,9 @@
 }
 
 .action-text {
-    padding: 20px;
+    padding: 15px;
     margin-bottom: 30px;
+    width: 100%;
 }
 
 .action-icon-3, .action-icon-4 {
@@ -72,7 +78,8 @@
 }
 
 
-.save-earth-image {
+.save-earth-image img {
     width: 70%;
    margin-left: 0;
+   min-width: 370px;
 }
